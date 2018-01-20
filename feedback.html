@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="test, site, website" />
+    <meta name="description" content="Этот сайт является пробным" />
+    <link href="css/index-style.css" rel="stylesheet" type="text/css" />
+    <link href="css/slide.css" rel="stylesheet" type="text/css">
+    <link href="img/favicon.jpg" rel="shortcut icon" type="image/x-icon" />
+    <title>moskvich.ru</title>
+</head>
+<body>
+<div id="page-wrap">
+    <header>
+        <a href="index.html" title="На Главную" id="logo">
+            Сайт о Москвичах
+        </a>
+        <span id="contact"> О нас: </span>
+        <input type="text" class="field" placeholder="Что ищем?" />
+        <span class="right">
+           <span class="contact">
+               <a href="reg.html" title="Зарегистрироваться">Регистрация</a>
+               |
+               <a href="auth.html" title="Авторизоваться">Войти </a>
+           </span>
+        </span>
+    </header>
+    <div class="clear"><br /></div>
+    <center>
+        <div id="menu">Разделы <hr /></div>
+        <div id="menuHrefs">
+            <a href="about_us.html"> О нас </a>
+            <a href="#feedback"> Обратная связь </a>
+            <a href="reg.html"> Регистрация </a>
+        </div>
+    </center>
+    <div id="wrapper">
+        <div id="articles">
+            <form action="" method="post">
+                <label for="subject">Тема сообщения</label>
+                <input type="text" id="subject" name="subject" placeholder="Тема сообщения">
+                <label for="email">EMail</label>
+                <input type="email" id="email" name="email"  placeholder="myemail@mail.ru">
+                <label for="name">Введите ваше имя</label>
+                <input type="text" id="name" name="name" placeholder="Введите ваше имя">
+                <label for="message">Введите текст Вашего сообщения</label>
+                <textarea id="message" name="message" placeholder="Текст сообщения"></textarea>
+                <input type="submit" value="Отправить" id="send" name="send">
+            </form>
+        </div>
+    </div>
+</div>
+<footer>
+    <span class="left">Все права защищены &copy; 2017</span>
+    <span class="right">
+        <a name="feedback"></a>
+        Мы в Соц. сетях
+        <img src="img/whatsapp.png" alt="WhatsApp" title="WhatsApp">
+        <a href="https://vk.com/v_moskviche" target="_blank">
+            <img src="img/vk.png" alt="ВКонтакте" title="ВКонтакте">
+        </a>
+        <a href="https://www.instagram.com/moskvich_mafia/" target="_blank">
+            <img id="InstLogo" src="img/insta.png" alt="Instagram" title="Instagram">
+        </a>
+    </span>
+</footer>
+</body>
+</html>
